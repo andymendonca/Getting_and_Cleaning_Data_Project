@@ -1,9 +1,3 @@
----
-title: "Getting and Cleaning Data Project"
-author: "Andrew Mendonca"
----
-
-
 ## Description
 
 Important information regarding the variables, data, and transformations
