@@ -27,25 +27,37 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 Explanation of file "run_analysis.R" performing 5 simple required steps for the project:
 
 1.  Merge the training and the test sets to create one data set.
+
   A.  Read training and test tables and features and activity labels.
+  
   B.  Assign and read simple names to different columns.
+  
   C.  Merge training and test sets into one data set.
   
 2. Extract only the measurements on the mean and standard deviation for each measurement.
+
   A.  Read every single column name.
+  
   B.  Create a vector for the ID, mean, and standard deviation columns.
+  
   C.  Make a subset from merge_in_one.
   
 3.  Use descriptive activity names to name the activities in the data set.
+
   A.  Merge the set_mean_standardDev set with the activity_labels_file table to include descriptive activity names.
+  
   B.  Update the columnNames vector to include new column names.
 
 4.  Appropriately label the data set with descriptive variable names.
+
   A.  Clean up every single variable name.
+  
   B.  Reassign new column names to the set_activity_names set.
   
 5.  Create a second, independent tidy data set with the average of each variable for each activity and each subject.
+
   A.  Make a second tidy data set.
+  
   B.  Write the second tidy data set in a text file.
   
   
